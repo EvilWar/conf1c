@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<CommandsVisibility>
+		<Command name="Document.ЗаписиУСН.Command.ОткрытьЗаписиУСН">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsOrder>
+		<Command name="Document.ЗаписиУСН.Command.ОткрытьЗаписиУСН">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.СЧегоНачать</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.УпрощеннаяСистемаНалогообложения</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.ЕдиныйНалогНаВмененныйДоход</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.СтраховыеВзносы</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.Патент</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.Сотрудники</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.Росалкогольрегулирование</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.ТорговыйСбор</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.Отчетность1С</Subsystem>
+		<Subsystem>Subsystem.НалогиИОтчетность.Subsystem.Прочее</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelImportant</Group>
+	</GroupsOrder>
+</CommandInterface>

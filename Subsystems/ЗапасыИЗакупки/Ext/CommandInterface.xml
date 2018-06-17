@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<CommandsVisibility>
+		<Command name="DataProcessor.ПанельАдминистрирования1СМаркировка.Command.Настройки1СМаркировка">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ВыгрузкаБазыТоваровВТСД.Command.ОткрытьВыгрузкуБазыТоваровВТСД">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.СопоставлениеОрганизацийЕГАИС.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.СопоставлениеНоменклатурыЕГАИС.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ПомощникКорректировкиОстатковЕГАИС.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.Панель1СМаркировка.Command.МаркировкаЗакупки">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ДополнительныеОбработкиЗапасыИЗакупки">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.Панель1СМаркировка.Command.МаркировкаСклад">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.Панель1СМаркировка.Command.МаркировкаПродажи">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Событие.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Событие.Command.ТелефонныеЗвонки">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Событие.Command.ЭлектроннаяПочта">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Событие.Command.СообщенияSMS">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Событие.Command.ЛичныеВстречи">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Событие.Command.ПрочиеСобытия">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="DataProcessor.ПанельАдминистрирования1СМаркировка.Command.Настройки1СМаркировка">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.ВыгрузкаБазыТоваровВТСД.Command.ОткрытьВыгрузкуБазыТоваровВТСД">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.СопоставлениеОрганизацийЕГАИС.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.СопоставлениеНоменклатурыЕГАИС.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.ПомощникКорректировкиОстатковЕГАИС.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.Панель1СМаркировка.Command.МаркировкаЗакупки">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="CommonCommand.ДополнительныеОбработкиЗапасыИЗакупки">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Событие.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Событие.Command.ТелефонныеЗвонки">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Событие.Command.ЭлектроннаяПочта">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Событие.Command.СообщенияSMS">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Событие.Command.ЛичныеВстречи">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Событие.Command.ПрочиеСобытия">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="DataProcessor.ПанельАдминистрирования1СМаркировка.Command.Настройки1СМаркировка">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ВыгрузкаБазыТоваровВТСД.Command.ОткрытьВыгрузкуБазыТоваровВТСД">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.СопоставлениеОрганизацийЕГАИС.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.СопоставлениеНоменклатурыЕГАИС.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ПомощникКорректировкиОстатковЕГАИС.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.ПолучитьОтветыЕГАИС">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Панель1СМаркировка.Command.МаркировкаЗакупки">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.ДополнительныеОбработкиЗапасыИЗакупки">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+		</Command>
+		<Command name="Document.Событие.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Document.Событие.Command.ТелефонныеЗвонки">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Document.Событие.Command.ЭлектроннаяПочта">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Document.Событие.Command.СообщенияSMS">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Document.Событие.Command.ЛичныеВстречи">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Document.Событие.Command.ПрочиеСобытия">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.Закупки</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.ЕГАИС</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.Переработка</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.РасчетыСПоставщиками</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.ЗапасыИСклад</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.ТоварыИУслуги</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.Цены</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.Планирование</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.Аналитика</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.Взаиморасчеты</Subsystem>
+		<Subsystem>Subsystem.ЗапасыИЗакупки.Subsystem.ГИСМ</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.Сервис</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>NavigationPanelImportant</Group>
+	</GroupsOrder>
+</CommandInterface>

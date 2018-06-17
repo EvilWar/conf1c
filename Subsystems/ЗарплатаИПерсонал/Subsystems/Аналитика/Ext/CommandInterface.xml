@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<CommandsVisibility>
+		<Command name="0:62e49a4c-754d-462e-bd11-e37be68bf709">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:d2494046-38db-4aad-8620-c76746744a7f">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:fdb4eab7-7e39-44e4-9d07-935f4bd54419">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:54ff17ab-c6fc-4233-8288-4737bae394e9">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:6d5ff0df-3765-4e2b-9f30-481b7704d7d9">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ПанельОтчетов_ЗарплатаИПерсонал">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ДополнительныеОбработкиЗарплатаИПерсонал">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="0:62e49a4c-754d-462e-bd11-e37be68bf709">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="0:d2494046-38db-4aad-8620-c76746744a7f">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="0:fdb4eab7-7e39-44e4-9d07-935f4bd54419">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="0:54ff17ab-c6fc-4233-8288-4737bae394e9">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="0:6d5ff0df-3765-4e2b-9f30-481b7704d7d9">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="CommonCommand.ПанельОтчетов_ЗарплатаИПерсонал">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="CommonCommand.ДополнительныеОбработкиЗарплатаИПерсонал">
+			<CommandGroup>CommandGroup.Сервис</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="0:62e49a4c-754d-462e-bd11-e37be68bf709">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="0:d2494046-38db-4aad-8620-c76746744a7f">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="0:fdb4eab7-7e39-44e4-9d07-935f4bd54419">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="0:54ff17ab-c6fc-4233-8288-4737bae394e9">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="0:6d5ff0df-3765-4e2b-9f30-481b7704d7d9">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.ПанельОтчетов_ЗарплатаИПерсонал">
+			<CommandGroup>CommandGroup.Аналитика</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.Аналитика</Group>
+	</GroupsOrder>
+</CommandInterface>

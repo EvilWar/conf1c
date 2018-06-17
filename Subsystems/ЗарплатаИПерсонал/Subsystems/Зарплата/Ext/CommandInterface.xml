@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<CommandsVisibility>
+		<Command name="DocumentJournal.ДокументыПоЗарплате.Command.ОткрытьЖурналЗарплатаДокументыПоЗарплате">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">false</xr:Value>
+				<xr:Value name="Role.Администрирование">false</xr:Value>
+				<xr:Value name="Role.АдминистрированиеАбонентаБизнесСеть">false</xr:Value>
+				<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваБРО">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваБТС">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваВнешнегоПользователя">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваГИСМ">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваЕГАИС">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваИПП">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваУНФ">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваЭД">false</xr:Value>
+				<xr:Value name="Role.ВыводНаПринтерФайлБуферОбмена">false</xr:Value>
+				<xr:Value name="Role.ВыполнениеОбменаБизнесСеть">false</xr:Value>
+				<xr:Value name="Role.ВыполнениеОбменаЭД">false</xr:Value>
+				<xr:Value name="Role.ВыполнениеОбменовДаннымиСМобильнымПриложением">false</xr:Value>
+				<xr:Value name="Role.ВыполнениеОбменовДаннымиССайтами">false</xr:Value>
+				<xr:Value name="Role.ВыполнениеСинхронизацииДанных">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАдресныхСведений">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАктаПостановкиНаБалансЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеАктаСписанияЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеБанков">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеБанковскихСчетов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВалют">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВариантовОтчетов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВидовАлкогольнойПродукцииЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВидовКонтактнойИнформации">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВозвратаИзТорговогоЗалаЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВозвратовОтПокупателей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеВозвратовПоставщикам">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеГрафиковРаботы">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеДатЗапретаИзменения">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеДокументовЗакупкиГИСМ">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеЗагрузкиОстатковЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеКалендарныхГрафиков">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеКлассификатораАлкогольнойПродукцииЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеКлассификатораОрганизацийЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеКонтрагентов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеКурсовВалют">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеЛичныхВариантовОтчетов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеМаркировокТоваровГИСМ">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеНапоминаний">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеНеразделяемыхДанныхРегламентированнойОтчетности">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеНоменклатуры">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПередачиВТорговыйЗалЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПеремещенийЗапасов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПерсональныхДанныхФизическихЛиц">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодключаемогоОборудования">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыБанк">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыБиллинг">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыЗакупки">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыЗапасыИСклад">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыЗарплата">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыИзлишкиИНедостачи">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыКасса">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыМаркетниг">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыНаряды">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыПереработка">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыПереработкаПроизводство">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыПерсонал">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыПланированиеДенег">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыПродажи">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыПроизводство">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыРаботы">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыРемонты">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПодсистемыРозничныеПродажи">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеПользователей">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРазделяемыхДанныхРегламентированнойОтчетности">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеРассылокОтчетов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСертификатовВХранилище">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСобытийИЗаданий">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСправокЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеСтатейДвиженияДенежныхСредств">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТТНВходящейЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеТТНИсходящейЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеУведомленийОбОтгрузкеМаркированныхТоваровГИСМ">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеУведомленийОПоступленииМаркированныхТоваровГИСМ">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеУведомленийОСписанииКиЗГИСМ">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеФизическихЛиц">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеШаблоновДокументов">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеШаблоновСообщений">false</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеЭлектронныхПодписейИШифрование">false</xr:Value>
+				<xr:Value name="Role.ЗапросНовойСправкиСПАРКРиски">false</xr:Value>
+				<xr:Value name="Role.ЗапускВебКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускВнешнегоСоединения">false</xr:Value>
+				<xr:Value name="Role.ЗапускAutomation">false</xr:Value>
+				<xr:Value name="Role.ЗапускТолстогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ЗапускТонкогоКлиента">false</xr:Value>
+				<xr:Value name="Role.ИзменениеДополнительныхСведений">false</xr:Value>
+				<xr:Value name="Role.ИзменениеМакетовПечатныхФорм">false</xr:Value>
+				<xr:Value name="Role.ИзменениеУчастниковГруппДоступа">false</xr:Value>
+				<xr:Value name="Role.Интеграция1СБухфон">false</xr:Value>
+				<xr:Value name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеГлобальныхДополнительныхОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеЗагрузкиДанныхИзВнешнегоИсточника">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеКалендаряСотрудника">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеМетодовПровайдераТелефонии">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеМонитораИПП">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОбработкиТекущиеДела">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОбсуждений">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовАнализ">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовДеньги">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовЗакупки">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовЗарплата">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовКомпания">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовПродажи">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовПроизводство">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеОтчетовРаботы">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеПодключаемогоОборудования">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеСервиса1СТакском">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеУниверсальногоОтчета">false</xr:Value>
+				<xr:Value name="Role.ИспользованиеЭлектроннойПодписиВМоделиСервиса">false</xr:Value>
+				<xr:Value name="Role.НастройкаИОценкаПроизводительности">false</xr:Value>
+				<xr:Value name="Role.НастройкаПараметровЭД">false</xr:Value>
+				<xr:Value name="Role.НастройкаСинхронизацииФайлов">false</xr:Value>
+				<xr:Value name="Role.НастройкиОбменаГИСМ">false</xr:Value>
+				<xr:Value name="Role.ОбновлениеКонфигурацииБазыДанных">false</xr:Value>
+				<xr:Value name="Role.ОбработкаОбратныхВызововOAuth2">false</xr:Value>
+				<xr:Value name="Role.ОператорОтправкиОтчетностиЧерезПредставителя">false</xr:Value>
+				<xr:Value name="Role.ОтправкаSMS">false</xr:Value>
+				<xr:Value name="Role.ПодключениеКСервисуИнтернетПоддержки">false</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">false</xr:Value>
+				<xr:Value name="Role.ПостановкаКонтрагентовНаМониторингСПАРКРиски">false</xr:Value>
+				<xr:Value name="Role.ПравоНаЗащищенныйДокументооборотСКонтролирующимиОрганами">false</xr:Value>
+				<xr:Value name="Role.ПросмотрЖурналаРегистрации">false</xr:Value>
+				<xr:Value name="Role.ПросмотрИнформацииОДоступныхОбновленияхПрограммы">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОписанияИзмененийПрограммы">false</xr:Value>
+				<xr:Value name="Role.ПросмотрОтчетаДосьеКонтрагента">false</xr:Value>
+				<xr:Value name="Role.ПросмотрПротоколовОтправкиВКонтролирующиеОрганы">false</xr:Value>
+				<xr:Value name="Role.ПросмотрСвязанныеДокументы">false</xr:Value>
+				<xr:Value name="Role.РаботаСПапкамиФайлов">false</xr:Value>
+				<xr:Value name="Role.РаботаСФайлами">false</xr:Value>
+				<xr:Value name="Role.РедактированиеНовостей">false</xr:Value>
+				<xr:Value name="Role.РедактированиеРеквизитовОбъектов">false</xr:Value>
+				<xr:Value name="Role.РедактированиеЦенДокументов">false</xr:Value>
+				<xr:Value name="Role.РежимВсеФункции">false</xr:Value>
+				<xr:Value name="Role.СохранениеДанныхПользователя">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступАдминистрированиеИБВМоделиСервиса">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступБазоваяФункциональность">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступОбменДаннымиВМоделиСервиса">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступОбменСообщениями">false</xr:Value>
+				<xr:Value name="Role.УдаленныйДоступСтандартныйИнтерфейсOData">false</xr:Value>
+				<xr:Value name="Role.ЧтениеАктаПостановкиНаБалансЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеАктаСписанияЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВариантовОтчетов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВерсийОбъектов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВнешнихПользователей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеВозвратаИзТорговогоЗалаЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеГрафиковРаботы">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДанныхРегламентированнойОтчетности">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДанныхСПАРКРиски">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДокументовДвиженияПоЗапасам">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДокументовЗакупкиГИСМ">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДокументовПоБанкуИКассе">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДокументовРасчетов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДополнительныхОтчетовИОбработок">false</xr:Value>
+				<xr:Value name="Role.ЧтениеДополнительныхСведений">false</xr:Value>
+				<xr:Value name="Role.ЧтениеЗагрузкиОстатковЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеЗапросовЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеИнформацииОВерсияхОбъектов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеКурсовВалют">false</xr:Value>
+				<xr:Value name="Role.ЧтениеМаркировокТоваровГИСМ">false</xr:Value>
+				<xr:Value name="Role.ЧтениеНовостей">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОстатковАлкогольнойПродукции">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОстатковДенежныхСредств">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОстатковЗапасовИРасчетов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОстатковНачисленийИТабеля">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОстатковОплатыСчетовИЗаказов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеОстатковРасчетов">false</xr:Value>
+				<xr:Value name="Role.ЧтениеПередачиВТорговыйЗалЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеПерсональныхДанныхФизическихЛиц">false</xr:Value>
+				<xr:Value name="Role.ЧтениеПодсистемаБиллинг">false</xr:Value>
+				<xr:Value name="Role.ЧтениеПравилРабочегоПроцесса">false</xr:Value>
+				<xr:Value name="Role.ЧтениеРегистрацийВНалоговыхОрганах">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСогласийНаОбработкуПерсональныхДанных">false</xr:Value>
+				<xr:Value name="Role.ЧтениеСправокЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТТНВходящейЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеТТНИсходящейЕГАИС">false</xr:Value>
+				<xr:Value name="Role.ЧтениеУведомленийОбОтгрузкеМаркированныхТоваровГИСМ">false</xr:Value>
+				<xr:Value name="Role.ЧтениеУведомленийОПоступленииМаркированныхТоваровГИСМ">false</xr:Value>
+				<xr:Value name="Role.ЧтениеУведомленийОСписанииКиЗГИСМ">false</xr:Value>
+				<xr:Value name="Role.ЧтениеУчетныхЗаписейЭлектроннойПочты">false</xr:Value>
+				<xr:Value name="Role.ЧтениеФизическихЛиц">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DocumentJournal.ДокументыПоЗарплате.Command.ОткрытьЖурналЗарплатаРазделГлавное">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Report.ОтработанноеВремя.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsOrder>
+		<Command name="DocumentJournal.ДокументыПоЗарплате.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DocumentJournal.ДокументыПоЗарплате.Command.ОткрытьЖурналЗарплатаДокументыПоЗарплате">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DocumentJournal.ДокументыПоЗарплате.Command.ОткрытьЖурналЗарплатаРазделГлавное">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.НачислениеЗарплаты.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ПлатежнаяВедомость.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.Табель.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+	</GroupsOrder>
+</CommandInterface>
